@@ -50,3 +50,14 @@ const result = []
 4. Website about World of Warcraft (HTML, CSS, SASS, JavaScript, Prepros, Figma)
 * source code: https://github.com/kyoto430/Project-1
 * live: https://kyoto430.github.io/Project-1/
+
+## Education
+
+* University: Belarusian State University of Informatics and Radioelectronics, "System Engineer"
+* Courses:
+    + HTML Academy
+    + JavaScript Junior Frontend Developer course by Vladilen Inc.
+
+## English level
+
+* English - A2
