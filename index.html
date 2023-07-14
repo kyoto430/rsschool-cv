@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV#3. Ruslan Prakapets</title>
+  <meta name="description" content="CV" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="nav">
+        <a href="#preview" class="nav__logo">RUSLAN PRAKAPETS</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#info" class="nav__link">Contact Details</a>
+            </li>
+            <li class="nav__item">
+              <a href="#study" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+          </ul>
+          <img width="32" height="32" class="nav__close" id="nav-close" src="./assets/images/icons/close.svg"
+            alt="Иконка закрытия меню" />
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <img width="32" height="32" src="./assets/images/icons/bars.svg" alt="Иконка открытия меню" />
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="preview fade-animation" id="preview">
+        <div class="preview__background"></div>
+        <h1>CV#3. Ruslan Prakapets</h1>
+        <a class="preview__button" href="#info">See</a>
+      </section>
+      <section class="info fade-animation" id="info">
+        <h2 class="info__title">Contact Details</h2>
+        <div class="info__container">
+          <dl class="info__list">
+            <dt>Full name</dt>
+            <dd>Prakapets Ruslan</dd>
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:nateriver345@gmail.com">nateriver345@gmail.com</a>
+            </dd>
+            <dt>Socials</dt>
+            <dd>
+              <ul class="list__socials">
+                <li>
+                  <a href="https://instagram.com/ruslan_prakapets" target="_blank"><img width="32" height="32"
+                      class="list__social-img" src="./assets/images/socials/instagram.svg" alt="Инстаграм" /></a>
+                </li>
+                <li>
+                  <a href="https://t.me/Kyoto430" target="_blank"><img width="32" height="32" class="list__social-img"
+                      src="./assets/images/socials/telegram.svg" alt="Телеграм" /></a>
+                </li>
+                <li>
+                  <a href="https://vk.com/Kyoto430" target="_blank"><img width="32" height="32" class="list__social-img"
+                      src="./assets/images/socials/vk.svg" alt="Вконтакте" /></a>
+                </li>
+                <li>
+                  <a href="https://github.com/kyoto430" target="_blank"><img width="32" height="32"
+                      class="list__social-img" src="./assets/images/socials/git.svg" alt="Гитхаб" /></a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <img class="info__avatar" src="./assets/images/avatar/avatar.jpg" alt="Аватар" width="300" />
+        </div>
+      </section>
+      <section class="study fade-animation" id="study">
+        <h2 class="study__title">Education</h2>
+        <div class="study__container">
+          <ul class="study__list">
+            <li>
+              <h3>System Engineer</h3>
+              <p>
+                University: Belarusian State University of Informatics and Radioelectronics, 2023
+              </p>
+            </li>
+            <li>
+              <h3>Junior Frontend Developer</h3>
+              <p>Result School, 2022</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about fade-animation" id="about">
+        <h2 class="about__title">About</h2>
+        <div class="about__container">
+          <div class="about__container-description">
+            <ul class="about__description fade-animation">
+              <h3>Skills:</h3>
+              <li>HTML</li>
+              <li>CSS/SASS</li>
+              <li>JavaScript</li>
+              <li>React/Redux</li>
+              <li>Git</li>
+              <li>Figma/PS</li>
+              <li>Bootstrap5</li>
+            </ul>
+            <ul class="about__description fade-animation">
+              <h3>Code example</h3>
+              <code>
+                    function powersOfTwo(n){
+                    const result = []
+                      for(let i = 0; i <= n; i++){
+                        result.push(Math.pow(2,i))
+                      }
+                      return result
+                    }
+                </code>
+            </ul>
+            <ul class="about__description fade-animation">
+              <h3>Work experience</h3>
+              <li>
+                <a href="https://github.com/orlovaleksandr89/hakaton">Team website (React, Bootstrap)</a>
+              </li>
+              <li>
+                <a href="https://github.com/kyoto430/Vintage-cars">Website vintage cars (HTML, CSS, JavaScript, Figma)</a>
+              </li>
+              <li>
+                <a href="https://github.com/kyoto430/Project-1">Website about World of Warcraft (HTML, CSS, SASS, JavaScript, Prepros, Figma)</a>
+              </li>
+            </ul>
+            <ul class="about__description fade-animation">
+              <h3>English level</h3>
+              <li>English - A2</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="slider__wrapper fade-animation">
+        <div class="slider">
+          <div class="slider__nav">
+            <label for="s1" class="slider__nav-item"></label>
+            <label for="s2" class="slider__nav-item"></label>
+            <label for="s3" class="slider__nav-item"></label>
+          </div>
+          <div class="slider__items">
+            <input type="radio" name="s" id="s1" />
+            <input type="radio" name="s" id="s2" />
+            <input type="radio" name="s" id="s3" />
+
+            <div class="slider-item s1">
+              <img src="./assets/images/slider/01.jpg" alt="Снежная гора" />
+            </div>
+            <div class="slider-item s2">
+              <img src="./assets/images/slider/02.jpg" alt="Гора и трава" />
+            </div>
+            <div class="slider-item s3">
+              <img src="./assets/images/slider/03.jpg" alt="Гора и лес" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>© 2023 - Ruslan Prakapets</p>
+      <div class="footer__socials-container">
+        <ul class="footer__socials">
+          <li>
+            <a href="https://instagram.com/ruslan_prakapets" target="_blank"><img width="32" height="32"
+                class="list__social-img" src="./assets/images/socials/instagram-footer.svg" alt="Инстаграм" /></a>
+          </li>
+          <li>
+            <a href="https://t.me/Kyoto430" target="_blank"><img width="32" height="32" class="list__social-img"
+                src="./assets/images/socials/telegram-footer.svg" alt="Телеграм" /></a>
+          </li>
+          <li>
+            <a href="https://vk.com/Kyoto430" target="_blank"><img width="32" height="32" class="list__social-img"
+                src="./assets/images/socials/vk-footer.svg" alt="Вконтакте" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/kyoto430" target="_blank"><img width="32" height="32" class="list__social-img"
+                src="./assets/images/socials/git-footer.svg" alt="Гитхаб" /></a>
+          </li>
+        </ul>
+      </div>
+      <a href="https://rs.school/js/" target="_blank">
+        <img class="footer__logo" src="./assets/images/socials/logo_rs-school.png" alt="logo rs school" />
+      </a>
+    </footer>
+  </div>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
